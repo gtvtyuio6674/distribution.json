@@ -1,0 +1,43 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "385581240906022916",
+        "smallImageText": "모여봐요 수현의숲",
+        "smallImageKey": "seal-circle"
+    },
+    "java": {
+        "oracle": "https://www.oracle.com/java/technologies/downloads/"
+    },
+    "rss": "https://example.com/rss",
+    "servers": [
+        {
+            "id": "SuhyeonForest-1.21.1",
+            "name": "모여봐요 수현의숲",
+            "description": "모여봐요 수현의숲 서버입니다.",
+            "icon": "https://cdn.mysticred.space/launcher/files/server-prod.png",
+            "version": "1.0.0",
+            "address": "25.32.128.227",
+            "minecraftVersion": "1.21.1",
+            "discord": {
+                "shortId": "SuhyeonForest",
+                "largeImageText": "모여봐요 수현의숲",
+                "largeImageKey": "server-prod"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.21.1-52.1.14",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "",
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14-installer.jar"
+                    },
+                    "subModules": []
+                }
+            ]
+        }
+    ]
+}
