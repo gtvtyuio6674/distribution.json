@@ -1,25 +1,15 @@
 {
     "version": "1.0.0",
-    "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "Helios Launcher",
-        "smallImageKey": "seal-circle"
-    },
-    "rss": "https://your-site.com/articles/index.rss",
+    "rss": "",
     "servers": [
         {
             "id": "Fabric-1.21.8",
             "name": "Fabric 1.21.8 Server",
             "description": "Fabric modded Minecraft 1.21.8 server.",
-            "icon": "https://your-cdn.com/files/server-icon.png",
+            "icon": "",
             "version": "1.0.0",
             "address": "25.32.128.227:25565",
             "minecraftVersion": "1.21.8",
-            "discord": {
-                "shortId": "Fabric 1.21.8",
-                "largeImageText": "Fabric 1.21.8 Server",
-                "largeImageKey": "server-icon"
-            },
             "mainServer": true,
             "autoconnect": true,
             "modules": [
@@ -34,6 +24,16 @@
                     },
                     "subModules": [
                         {
+                            "id": "1.21.8-fabric-0.16.14",
+                            "name": "Fabric Version Manifest",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 0,
+                                "MD5": "",
+                                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.16.14/profile/json"
+                            }
+                        },
+                        {
                             "id": "net.fabricmc:intermediary:1.21.8",
                             "name": "Fabric Intermediary",
                             "type": "Library",
@@ -44,16 +44,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "id": "net.fabricmc.fabric-api:fabric-api:0.119.5+1.21.8",
-                    "name": "Fabric API",
-                    "type": "FabricMod",
-                    "artifact": {
-                        "size": 0,
-                        "MD5": "",
-                        "url": "https://github.com/gtvtyuio6674/distribution.json/raw/refs/heads/main/fabric-api-0.136.1+1.21.8.jar"
-                    }
                 }
             ]
         }
