@@ -8,14 +8,14 @@
   },
 
   "java": {
-    "oracle": "https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe"
+    "oracle": "https://www.oracle.com/java/technologies/downloads/"
   },
 
   "rss": "",
 
   "servers": [
     {
-      "id": "suhyeonforest-1.21.1",
+      "id": "SuhyeonForest-1.21.1",
 
       "name": "모여봐요 수현의숲",
 
@@ -49,11 +49,29 @@
 
           "artifact": {
             "size": 9025090,
+
             "MD5": "",
+
             "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14-installer.jar"
           },
 
-          "subModules": []
+          "subModules": [
+            {
+              "id": "1.21.1-forge-52.1.14",
+
+              "name": "Forge Manifest",
+
+              "type": "VersionManifest",
+
+              "artifact": {
+                "size": 0,
+
+                "MD5": "",
+
+                "url": "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json"
+              }
+            }
+          ]
         }
       ]
     }
