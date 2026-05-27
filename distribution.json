@@ -43,7 +43,7 @@
         {
           "id": "net.minecraftforge:forge:1.21.1-52.1.14",
 
-          "name": "Minecraft Forge",
+          "name": "Forge",
 
           "type": "ForgeHosted",
 
@@ -68,7 +68,7 @@
 
                 "MD5": "",
 
-                "url": "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json"
+                "url": "https://launchermeta.mojang.com/mc/game/version_manifest.json"
               }
             }
           ]
