@@ -57,6 +57,22 @@
 
           "subModules": [
             {
+              "id": "net.minecraftforge:forge:1.21.1-52.1.14:installer",
+
+              "name": "Forge Installer",
+
+              "type": "Library",
+
+              "artifact": {
+                "size": 9025090,
+
+                "MD5": "",
+
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14-installer.jar"
+              }
+            },
+
+            {
               "id": "1.21.1-forge-52.1.14",
 
               "name": "Forge Manifest",
@@ -68,7 +84,7 @@
 
                 "MD5": "",
 
-                "url": ""
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14-installer.jar"
               }
             }
           ]
