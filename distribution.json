@@ -1,44 +1,61 @@
 {
-  "version": "1.0.0",
-  "rss": "https://www.minecraft.net/en-us/feeds/community-content/rss",
-  "servers": [
-    {
-      "id": "main",
-      "name": "모여봐요 수현의숲",
-      "description": "농사 · 낚시 · RPG · 마인팜",
-      "icon": "https://i.imgur.com/6b6psnA.png",
-      "version": "1.21.1",
-      "address": "25.32.128.227:25565",
-      "minecraftVersion": "1.21.1",
-      "mainServer": true,
-      "autoconnect": true,
-      "javaVersion": {
-        "majorVersion": 21
-      },
-      "modules": [
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "385581240906022916",
+        "smallImageText": "Helios Launcher",
+        "smallImageKey": "seal-circle"
+    },
+    "rss": "https://your-site.com/articles/index.rss",
+    "servers": [
         {
-          "id": "net.minecraft:client:1.21.1",
-          "name": "Minecraft",
-          "type": "Library",
-          "required": true,
-          "artifact": {
-            "size": 1,
-            "MD5": "none",
-            "url": "https://piston-data.mojang.com/v1/objects/760d592d6c7dcb5f4c1d9b8d217df3b35b84f1d/client.jar"
-          }
-        },
-        {
-          "id": "net.minecraftforge:forge:1.21.1-52.1.0",
-          "name": "Forge",
-          "type": "ForgeHosted",
-          "required": true,
-          "artifact": {
-            "size": 1,
-            "MD5": "none",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.0/forge-1.21.1-52.1.0-installer.jar"
-          }
+            "id": "Fabric-1.21.8",
+            "name": "Fabric 1.21.8 Server",
+            "description": "Fabric modded Minecraft 1.21.8 server.",
+            "icon": "https://your-cdn.com/files/server-icon.png",
+            "version": "1.0.0",
+            "address": "your.server.address:25565",
+            "minecraftVersion": "1.21.8",
+            "discord": {
+                "shortId": "Fabric 1.21.8",
+                "largeImageText": "Fabric 1.21.8 Server",
+                "largeImageKey": "server-icon"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.16.14",
+                    "name": "Fabric Loader",
+                    "type": "Fabric",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.fabricmc:intermediary:1.21.8",
+                            "name": "Fabric Intermediary",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 0,
+                                "MD5": "",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.8/intermediary-1.21.8-v2.jar"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "net.fabricmc.fabric-api:fabric-api:0.119.5+1.21.8",
+                    "name": "Fabric API",
+                    "type": "FabricMod",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "",
+                        "url": "https://your-cdn.com/mods/fabric-api-0.119.5+1.21.8.jar"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
