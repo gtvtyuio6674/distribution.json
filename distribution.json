@@ -1,51 +1,32 @@
 {
-    "version": "1.0.0",
-    "rss": "",
-    "servers": [
+  "version": "1.0.0",
+  "rss": "",
+  "servers": [
+    {
+      "id": "fabric1211",
+      "name": "Fabric 1.21.1",
+      "description": "Fabric Minecraft Server",
+      "icon": "",
+      "version": "1.0.0",
+      "address": "25.32.128.227:25565",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "javaVersion": {
+        "majorVersion": 21
+      },
+      "modules": [
         {
-            "id": "Fabric-1.21.8",
-            "name": "Fabric 1.21.8 Server",
-            "description": "Fabric modded Minecraft 1.21.8 server.",
-            "icon": "",
-            "version": "1.0.0",
-            "address": "25.32.128.227:25565",
-            "minecraftVersion": "1.21.8",
-            "mainServer": true,
-            "autoconnect": true,
-            "modules": [
-                {
-                    "id": "net.fabricmc:fabric-loader:0.16.14",
-                    "name": "Fabric Loader",
-                    "type": "Fabric",
-                    "artifact": {
-                        "size": 0,
-                        "MD5": "",
-                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "1.21.8-fabric-0.16.14",
-                            "name": "Fabric Version Manifest",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 0,
-                                "MD5": "",
-                                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.16.14/profile/json"
-                            }
-                        },
-                        {
-                            "id": "net.fabricmc:intermediary:1.21.8",
-                            "name": "Fabric Intermediary",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 0,
-                                "MD5": "",
-                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.8/intermediary-1.21.8-v2.jar"
-                            }
-                        }
-                    ]
-                }
-            ]
+          "id": "net.minecraft:1.21.1",
+          "name": "Minecraft",
+          "type": "VersionManifest",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
