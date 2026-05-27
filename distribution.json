@@ -1,100 +1,79 @@
-json
 {
-    "version": "1.0.0",
-    "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "모여봐요 수현의숲",
-        "smallImageKey": "seal-circle"
-    },
+  "version": "1.0.0",
 
-    "java": {
-        "oracle": "https://www.oracle.com/java/technologies/downloads/"
-    },
+  "discord": {
+    "clientId": "385581240906022916",
+    "smallImageText": "모여봐요 수현의숲",
+    "smallImageKey": "seal-circle"
+  },
 
-    "rss": "",
+  "java": {
+    "oracle": "https://www.oracle.com/java/technologies/downloads/"
+  },
 
-    "servers": [
+  "rss": "",
+
+  "servers": [
+    {
+      "id": "SuhyeonForest-1.21.1",
+
+      "name": "모여봐요 수현의숲",
+
+      "description": "모여봐요 수현의숲 서버입니다.",
+
+      "icon": "https://i.imgur.com/8Km9tLL.png",
+
+      "version": "1.0.0",
+
+      "address": "25.32.128.227:25565",
+
+      "minecraftVersion": "1.21.1",
+
+      "mainServer": true,
+
+      "autoconnect": true,
+
+      "discord": {
+        "shortId": "SuhyeonForest",
+        "largeImageText": "모여봐요 수현의숲",
+        "largeImageKey": "server-prod"
+      },
+
+      "modules": [
         {
-            "id": "SuhyeonForest-1.21.1",
-            "name": "모여봐요 수현의숲",
-            "description": "모여봐요 수현의숲 서버입니다.",
-            "icon": "https://i.imgur.com/8Km9tLL.png",
+          "id": "net.minecraftforge:forge:1.21.1-52.1.14",
 
-            "version": "1.0.0",
+          "name": "Forge",
 
-            "address": "25.32.128.227:25565",
+          "type": "ForgeHosted",
 
-            "minecraftVersion": "1.21.1",
+          "artifact": {
+            "size": 9025090,
 
-            "discord": {
-                "shortId": "SuhyeonForest",
-                "largeImageText": "모여봐요 수현의숲",
-                "largeImageKey": "server-prod"
-            },
+            "MD5": "",
 
-            "mainServer": true,
-            "autoconnect": true,
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14-installer.jar"
+          },
 
-            "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.21.1-52.1.14",
-                    "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
+          "subModules": [
+            {
+              "id": "net.minecraftforge:forge:1.21.1-52.1.14:installer",
 
-                    "artifact": {
-                        "size": 9025090,
-                        "MD5": "",
-                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14-installer.jar"
-                    },
+              "name": "Forge Installer",
 
-                    "subModules": [
+              "type": "Library",
 
-                        {
-                            "id": "net.minecraftforge:forge:1.21.1-52.1.14:universal",
-                            "name": "Forge Universal",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 0,
-                                "MD5": "",
-                                "url": ""
-                            }
-                        },
+              "artifact": {
+                "size": 9025090,
 
-                        {
-                            "id": "net.minecraftforge:forge:1.21.1-52.1.14:client",
-                            "name": "Forge Client",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 0,
-                                "MD5": "",
-                                "url": ""
-                            }
-                        },
+                "MD5": "",
 
-                        {
-                            "id": "1.21.1-forge-52.1.14",
-                            "name": "Forge Version Manifest",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 0,
-                                "MD5": "",
-                                "url": ""
-                            }
-                        },
-
-                        {
-                            "id": "net.minecraft:client:1.21.1:extra",
-                            "name": "Minecraft Client Extra",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 0,
-                                "MD5": "",
-                                "url": ""
-                            }
-                        }
-                    ]
-                }
-            ]
+                "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14-installer.jar"
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
