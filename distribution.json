@@ -39,23 +39,7 @@
         "largeImageKey": "server-prod"
       },
 
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.21.1-52.1.14",
-
-          "name": "Forge",
-
-          "type": "ForgeHosted",
-
-          "artifact": {
-            "size": 9025090,
-
-            "MD5": "",
-
-            "url": "https://raw.githubusercontent.com/gtvtyuio6674/distribution.json/main/forge-1.21.1-52.1.14-installer.jar"
-          }
-        }
-      ]
+      "modules": []
     }
   ]
 }
