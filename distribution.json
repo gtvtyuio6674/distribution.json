@@ -8,14 +8,14 @@
   },
 
   "java": {
-    "oracle": "https://www.oracle.com/java/technologies/downloads/"
+    "oracle": "https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe"
   },
 
   "rss": "",
 
   "servers": [
     {
-      "id": "SuhyeonForest-1.21.1",
+      "id": "suhyeonforest-1.21.1",
 
       "name": "모여봐요 수현의숲",
 
@@ -39,7 +39,51 @@
         "largeImageKey": "server-prod"
       },
 
-      "modules": []
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+
+          "name": "Fabric Loader",
+
+          "type": "Library",
+
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+
+          "subModules": [
+            {
+              "id": "net.irisshaders:iris:1.8.8+1.21.1",
+
+              "name": "Iris Shaders",
+
+              "type": "Library",
+
+              "artifact": {
+                "size": 0,
+                "MD5": "",
+                "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/latest/iris.jar"
+              }
+            },
+
+            {
+              "id": "maven.modrinth:sodium",
+
+              "name": "Sodium",
+
+              "type": "Library",
+
+              "artifact": {
+                "size": 0,
+                "MD5": "",
+                "url": "https://cdn.modrinth.com/data/AANobbMI/versions/latest/sodium.jar"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
