@@ -13,7 +13,7 @@
             "description": "Fabric modded Minecraft 1.21.8 server.",
             "icon": "https://your-cdn.com/files/server-icon.png",
             "version": "1.0.0",
-            "address": "your.server.address:25565",
+            "address": "25.32.128.227:25565",
             "minecraftVersion": "1.21.8",
             "discord": {
                 "shortId": "Fabric 1.21.8",
@@ -52,7 +52,7 @@
                     "artifact": {
                         "size": 0,
                         "MD5": "",
-                        "url": "https://your-cdn.com/mods/fabric-api-0.119.5+1.21.8.jar"
+                        "url": "https://github.com/gtvtyuio6674/distribution.json/raw/refs/heads/main/fabric-api-0.136.1+1.21.8.jar"
                     }
                 }
             ]
