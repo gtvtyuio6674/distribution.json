@@ -39,34 +39,41 @@
         "largeImageKey": "server-prod"
       },
 
-"modules": [
-  {
-    "id": "net.minecraftforge:forge:1.21.1-52.1.14",
-    "name": "Forge",
-    "type": "ForgeHosted",
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.21.1-52.1.14",
 
-    "artifact": {
-      "size": 9025090,
-      "MD5": "",
-      "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14-installer.jar"
-    },
+          "name": "Forge",
 
-    "subModules": [
-      {
-        "id": "1.21.1-forge-52.1.14",
+          "type": "ForgeHosted",
 
-        "name": "Forge Manifest",
+          "artifact": {
+            "size": 9025090,
 
-        "type": "VersionManifest",
+            "MD5": "",
 
-        "artifact": {
-          "size": 202949,
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14-installer.jar"
+          },
 
-          "MD5": "",
+          "subModules": [
+            {
+              "id": "1.21.1-forge-52.1.14",
 
-          "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.14/forge-1.21.1-52.1.14.json"
+              "name": "Forge Manifest",
+
+              "type": "VersionManifest",
+
+              "artifact": {
+                "size": 0,
+
+                "MD5": "",
+
+                "url": ""
+              }
+            }
+          ]
         }
-      }
-    ]
-  }
-]
+      ]
+    }
+  ]
+}
